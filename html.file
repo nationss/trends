@@ -214,7 +214,7 @@ clearInterval(interval);
 document.getElementById("stepText").innerText="Redirecting...";
 
 setTimeout(function(){
-window.location.href="https://ln.run/1OuUu";
+window.location.href="https://ln.run/_hOth";
 },1000)
 
 }
