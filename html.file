@@ -3,108 +3,60 @@
 <head>
 
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-
-<title>Network Verification Promo</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Mobile network eligibility check and promotional offers.">
+<title>Network Reward Check</title>
 
 <style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+}
 
 body{
 font-family:Arial,sans-serif;
 background:linear-gradient(135deg,#1a3cff,#ffcc00);
-margin:0;
-padding:0;
-text-align:center;
-animation:bgshift 10s infinite alternate;
+min-height:100vh;
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-items:center;
+padding:20px;
+animation:bgMove 8s infinite alternate;
 }
 
-@keyframes bgshift{
+@keyframes bgMove{
 0%{background:linear-gradient(135deg,#1a3cff,#ffcc00);}
 100%{background:linear-gradient(135deg,#ffcc00,#1a3cff);}
 }
 
 .header{
+width:100%;
+max-width:460px;
 background:#000;
 color:#ffcc00;
 padding:18px;
+text-align:center;
 font-size:22px;
 font-weight:bold;
+border-radius:14px 14px 0 0;
 }
 
 .container{
 background:#fff;
-max-width:420px;
-margin:40px auto;
-padding:30px;
-border-radius:12px;
+width:100%;
+max-width:460px;
+padding:30px 25px;
+border-radius:0 0 14px 14px;
 box-shadow:0 10px 30px rgba(0,0,0,0.25);
+text-align:center;
 }
 
 h2{
-margin-top:0;
-color:#222;
-}
-
-button{
-width:100%;
-padding:14px;
-margin-top:12px;
-font-size:16px;
-border:none;
-border-radius:10px;
-cursor:pointer;
-transition:0.2s;
-box-shadow:0 4px 12px rgba(0,0,0,0.2);
-font-weight:bold;
-}
-
-/* ✅ Zimbabwe Network Colors */
-.Econet{
-background:#00A651;
-color:#fff;
-}
-
-.NetOne{
-background:#0033A0;
-color:#fff;
-}
-
-.Telecel{
-background:#E60000;
-color:#fff;
-}
-
-button:hover{
-transform:scale(1.03);
-opacity:0.95;
-}
-
-.progress{
-width:100%;
-background:#ddd;
-height:12px;
-border-radius:6px;
-margin-top:20px;
-overflow:hidden;
-}
-
-.bar{
-width:0%;
-height:12px;
-background:linear-gradient(90deg,#1a3cff,#ffcc00);
-}
-
-.notice{
-font-size:13px;
-color:#777;
-margin-top:20px;
-}
-
-.slots{
-color:red;
-font-weight:bold;
-margin:10px 0;
-font-size:15px;
+font-size:24px;
+</html>font-size:15px;
 }
 
 .timer{
